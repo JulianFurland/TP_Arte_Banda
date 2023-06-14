@@ -1,0 +1,39 @@
+@font-face {
+    font-family: "Roper";
+    src: url('fonts/Roper.ttf');
+}
+.Curiosidades{
+    background-image: url('../imgs/bgcuriosidades.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.Integrantes div{
+    display: inline-block;
+}
+.Shows section{
+    display: inline-block;
+    float: left;
+}
+.Shows section div{
+    padding: 1rem;
+}
+
+section{
+    display: inline-block;
+}
+img{
+    width: 20rem;
+    display: inline-block;
+}
+.h1_titulo{
+    display: inline-block;
+    font-family: "Roper";
+    font-size: x-large;
+}
+.img_pfp{
+    width: 20rem;
+    height: 20rem;
+    border: 1rem;
+    border-radius:100%;
+}
