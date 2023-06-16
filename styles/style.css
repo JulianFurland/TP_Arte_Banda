@@ -2,6 +2,35 @@
     font-family: "Roper";
     src: url('fonts/Roper.ttf');
 }
+@font-face {
+    font-family: "Roper";
+    src: url('fonts/Helvetica.otf');
+}
+nav{
+    margin-top: -22px;
+    margin-left: 33%;
+}
+nav ul{
+    list-style-type: none;
+    list-style: none;
+}
+nav li{
+    float: left;
+    background-color: rgb(255, 157, 173);
+}
+li a{
+    text-align: center;
+    padding: 9px;
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+nav h3{
+    font-family: "Helvetica";
+}
+.Discografia{
+    background-color: rgb(214, 214, 214);
+}
 .Curiosidades{
     background-image: url('../imgs/bgcuriosidades.jpeg');
     background-repeat: no-repeat;
@@ -12,7 +41,6 @@
     display: inline-block;
 }
 .Shows section{
-    display: inline-block;
     float: left;
 }
 .Shows section div{
@@ -29,11 +57,39 @@ img{
 .h1_titulo{
     display: inline-block;
     font-family: "Roper";
-    font-size: x-large;
+    font-size: 200px;
 }
 .img_pfp{
     width: 20rem;
     height: 20rem;
     border: 1rem;
     border-radius:100%;
+}
+.fila{
+    flex-wrap: wrap;
+    padding: 4px;
+    float: center;
+    align-items: center;
+}
+.fila img{
+    size: 200%;
+    margin-left: 2px;
+}
+.section_discos{
+    display: flex;
+    margin-left: 5%;
+}
+.disco{
+    font-family: "Helvetica";
+    text-align: center;
+    margin-left: 150px;
+    padding: 1rem;
+    margin-top: 50px;
+}
+.disco_abajo{
+    font-family: "Helvetica";
+    text-align: center;
+    margin-left: 150px;
+    padding: 1rem;
+    margin-top: 200px;
 }
