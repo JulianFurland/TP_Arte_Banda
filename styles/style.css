@@ -3,42 +3,56 @@
     src: url('fonts/Roper.ttf');
 }
 @font-face {
-    font-family: "Roper";
+    font-family: "Helvetica";
     src: url('fonts/Helvetica.otf');
 }
-nav{
-    margin-top: -22px;
-    margin-left: 33%;
+body{
+    overflow: hidden;
+    background-repeat: no-repeat;
 }
-nav ul{
+.nav{
+    display: flex;
+    margin: 0;
+    width: 100%;
+    position: absolute;
+    justify-content: center;
+}
+.nav ul{
     list-style-type: none;
     list-style: none;
 }
-nav li{
+.nav li{
     float: left;
     background-color: rgb(255, 157, 173);
 }
 li a{
     text-align: center;
-    padding: 9px;
+    padding: 15px;
     display: block;
     text-decoration: none;
     color: black;
 }
-nav h3{
+.nav h3{
     font-family: "Helvetica";
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.Home{
+    background-image: url("../imgs/bghome.png");
+    background-size: 95%;
+    background-position-x: 3rem;
+    background-color: rgb(163, 163, 163); 
 }
 .Discografia{
-    background-color: rgb(214, 214, 214);
+    background-color: rgb(163, 163, 163); 
 }
 .Curiosidades{
     background-image: url('../imgs/bgcuriosidades.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
-    
 }
-.Integrantes div{
-    display: inline-block;
+.Integrantes{
+    background-color: rgb(163, 163, 163); 
 }
 .Shows section{
     float: left;
@@ -57,7 +71,9 @@ img{
 .h1_titulo{
     display: inline-block;
     font-family: "Roper";
-    font-size: 200px;
+    font-size: 250px;
+    margin-left: 37rem;
+    margin-top: 2.5rem;
 }
 .img_pfp{
     width: 20rem;
@@ -85,6 +101,7 @@ img{
     margin-left: 150px;
     padding: 1rem;
     margin-top: 50px;
+    width: 350px;
 }
 .disco_abajo{
     font-family: "Helvetica";
@@ -92,4 +109,42 @@ img{
     margin-left: 150px;
     padding: 1rem;
     margin-top: 200px;
+    width: 350px;
+}
+.integrantes_fotos{
+    display:  flex;
+    margin-top: 15rem;
+}
+.Integrantes div{
+    margin-left: 5rem;
+}
+.show{
+    display: block;
+
+}
+.Shows section{
+    padding: 15rem;
+}
+.tituloshows{
+    margin-left: -10rem;
+}
+.showscolumna1{
+    margin-top: -5rem;
+}
+.showscolumna2{
+    margin-top: -10rem;
+}
+.Shows{
+    background-color: rgb(163, 163, 163); 
+}
+a{
+    font-family: "Helvetica";
+    text-decoration: none;
+}
+.comprar{
+    display: block;
+    background-color: rgb(255, 9, 9); 
+    text-align: center;
+    padding: 2px;
+    width: 50%;
 }
