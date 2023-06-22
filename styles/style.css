@@ -10,12 +10,11 @@ body{
     overflow: hidden;
     background-repeat: no-repeat;
 }
-.nav{
-    display: flex;
-    margin: 0;
-    width: 100%;
+nav{
+    padding-left: 44.8rem;
     position: absolute;
     justify-content: center;
+    float: left;
 }
 .nav ul{
     list-style-type: none;
@@ -23,7 +22,7 @@ body{
 }
 .nav li{
     float: left;
-    background-color: rgb(255, 157, 173);
+    background-color: rgb(255, 46, 81);
 }
 li a{
     text-align: center;
@@ -53,6 +52,11 @@ li a{
 }
 .Integrantes{
     background-color: rgb(163, 163, 163); 
+}
+.Shows{
+    background-image: url('../imgs/bgshows.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .Shows section{
     float: left;
@@ -123,28 +127,39 @@ img{
 
 }
 .Shows section{
-    padding: 15rem;
+    padding: 6rem;
+    background-color: hsla(0, 0%, 66%, 0.6);
 }
 .tituloshows{
-    margin-left: -10rem;
+    margin-left: 50.5rem;
+    position: absolute;
+    margin-top: 10rem;
+    font-family: "Roper";
+    font-size: 2.8rem;
 }
 .showscolumna1{
-    margin-top: -5rem;
+    font-family: "Helvetica";
+    margin-left: 23rem;
 }
 .showscolumna2{
-    margin-top: -10rem;
-}
-.Shows{
-    background-color: rgb(163, 163, 163); 
+    font-family: "Helvetica";
+    margin-top: 0rem;
+    margin-left: 23rem;
 }
 a{
     font-family: "Helvetica";
     text-decoration: none;
 }
 .comprar{
+    margin-top: 3px;
     display: block;
-    background-color: rgb(255, 9, 9); 
+    background-color: rgba(255, 255, 255, 0.76); 
     text-align: center;
     padding: 2px;
     width: 50%;
+}
+.curiosidad{
+    position: absolute;
+    padding: 10rem;
+    width: 400px;
 }
