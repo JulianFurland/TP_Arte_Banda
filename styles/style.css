@@ -13,37 +13,36 @@ body{
 nav{
     padding-left: 44.8rem;
     position: absolute;
-    justify-content: center;
-    float: left;
+    width: 100%;
 }
 .nav ul{
     list-style-type: none;
-    list-style: none;
+    margin: 0;
+    padding: 0;
 }
 .nav li{
     float: left;
-    background-color: rgb(255, 46, 81);
+    display: inline;
 }
 li a{
+    display: block;
+    background-color: rgb(255, 46, 81);
     text-align: center;
     padding: 15px;
-    display: block;
     text-decoration: none;
     color: black;
 }
 .nav h3{
     font-family: "Helvetica";
-    background-size: cover;
-    background-repeat: no-repeat;
 }
 .Home{
     background-image: url("../imgs/bghome.png");
     background-size: 95%;
     background-position-x: 3rem;
-    background-color: rgb(163, 163, 163); 
+    background-color: rgb(91, 91, 91); 
 }
 .Discografia{
-    background-color: rgb(163, 163, 163); 
+    background-color: rgb(91, 91, 91); 
 }
 .Curiosidades{
     background-image: url('../imgs/bgcuriosidades.jpeg');
@@ -51,7 +50,7 @@ li a{
     background-size: cover;
 }
 .Integrantes{
-    background-color: rgb(163, 163, 163); 
+    background-color: rgb(91, 91, 91); 
 }
 .Shows{
     background-image: url('../imgs/bgshows.jpg');
@@ -98,11 +97,12 @@ img{
 .section_discos{
     display: flex;
     margin-left: 5%;
+    font-size: large;
 }
-.disco{
+.disco_arriba{
     font-family: "Helvetica";
     text-align: center;
-    margin-left: 150px;
+    margin-left: 7.5rem;
     padding: 1rem;
     margin-top: 50px;
     width: 350px;
@@ -114,6 +114,9 @@ img{
     padding: 1rem;
     margin-top: 200px;
     width: 350px;
+}
+.disco:hover, .comprar:hover, .integrantes_fotos div:hover{
+    transform: scale(1.1);
 }
 .integrantes_fotos{
     display:  flex;
@@ -131,7 +134,7 @@ img{
     background-color: hsla(0, 0%, 66%, 0.6);
 }
 .tituloshows{
-    margin-left: 50.5rem;
+    margin-left: 48rem;
     position: absolute;
     margin-top: 10rem;
     font-family: "Roper";
@@ -139,7 +142,7 @@ img{
 }
 .showscolumna1{
     font-family: "Helvetica";
-    margin-left: 23rem;
+    margin-left: 20.5rem;
 }
 .showscolumna2{
     font-family: "Helvetica";
@@ -160,6 +163,27 @@ a{
 }
 .curiosidad{
     position: absolute;
-    padding: 10rem;
+    padding: 1rem;
     width: 400px;
+    background-color: rgba(48, 48, 48, 0.7);
+    border-radius: 2rem;
+    font-family: "Helvetica";
+    color: aliceblue;
+    font-size: larger;
+}
+#curiosidad1{
+    margin-top: 10rem;
+    margin-left: 20rem;
+}
+#curiosidad2{
+    margin-top: 40rem;
+    margin-left: 10rem;
+}
+#curiosidad3{
+    margin-top: 10rem;
+    margin-left: 80rem;
+}
+#curiosidad4{
+    margin-top: 35rem;
+    margin-left: 85rem;
 }
